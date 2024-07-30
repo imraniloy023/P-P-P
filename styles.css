@@ -167,7 +167,7 @@ h2.horizontal{
 .line-art{
     position: relative;
     width: 150px;
-    height: 470px;
+    height: 60vh;
     border-left: 1px solid #011627;
     border-top: 1px solid #011627;
     right: -105%;
