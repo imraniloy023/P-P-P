@@ -123,14 +123,16 @@ nav li a:hover{
 }
 
 .first-div{
+    display: flex;
     float: left;
-    width: 40%;
+    width: 45%;
     height: 100%;
+    background-color: aliceblue;
 }
 
 .second-div{
     display: flex;;
-    width: 60%;
+    width: 55%;
     height: 100%;
     align-items: flex-end;
 }
@@ -148,11 +150,27 @@ h2.vertical{
 h2.horizontal{
     font-size: 41px;
     font-weight: bolder;
-    padding-top: 40%;
     text-align: right;
-    padding-right: 15%;
     font-family: 'Nunito Sans';
     text-transform: uppercase;
+}
+
+.h-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2.horizontal::after {
+    content: '';
+    width: 50px;
+    display: inline-block;
+    background-color: black;
+    height: 1px;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-bottom: 3px;
 }
 
 
@@ -171,7 +189,7 @@ h2.horizontal{
     background-color: #011627;
     width: 30%;
     left: -30%;
-    top: 39vh;
+    top: 37.5vh;
 }
 
 .line-art{
@@ -212,7 +230,7 @@ h2.horizontal{
 .secondary-container{
     float: left;
     width: 100%;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 .secondary-container img{
