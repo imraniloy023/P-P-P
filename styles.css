@@ -109,6 +109,7 @@ nav li a:hover{
 }
 
 .body-container{
+    position: relative;
     float: left;
     height: 70vh;
     width: 100% !important;    
@@ -153,6 +154,12 @@ h2.horizontal{
     font-family: 'Nunito Sans';
     text-transform: uppercase;
 }
+
+
+.line-design{
+    position: absolute;
+}
+
 
 .baseline{
     position: relative;
