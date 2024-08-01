@@ -158,6 +158,9 @@ h2.horizontal{
 
 .line-design{
     position: absolute;
+    position: absolute;
+    left: 44%;
+    top: -5vh;
 }
 
 
@@ -166,9 +169,9 @@ h2.horizontal{
     border: none;
     height: 0.3px;
     background-color: #011627;
-    width: 13%;
-    bottom: 6%;
-    left: 92%;
+    width: 30%;
+    left: -30%;
+    top: 39vh;
 }
 
 .line-art{
@@ -177,9 +180,6 @@ h2.horizontal{
     height: 60vh;
     border-left: 1px solid #011627;
     border-top: 1px solid #011627;
-    right: -39vw;
-    /* top: -61%; */
-    top: -5vh;
 }
 
 .baseline.about-page{
