@@ -160,7 +160,7 @@ h2.horizontal{
     border: none;
     height: 0.3px;
     background-color: #011627;
-    width: 13%;
+    width: 13.9%;
     bottom: 6%;
     left: 92%;
 }
@@ -171,7 +171,7 @@ h2.horizontal{
     height: 60vh;
     border-left: 1px solid #011627;
     border-top: 1px solid #011627;
-    right: 48vw;
+    left: 43vw;
     top: 26vh;
 }
 
