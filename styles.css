@@ -29,6 +29,7 @@ header{
     display: flex;
     justify-content: flex-end;
     height: 100%;
+    position: relative;
 }
 
 nav {
@@ -165,18 +166,17 @@ h2.horizontal{
 }
 
 .line-art{
-    position: relative;
+    position: absolute;
     width: 150px;
     height: 60vh;
     border-left: 1px solid #011627;
     border-top: 1px solid #011627;
-    right: -105%;
-    top: -61%;
-    /*top: -42.5vh;*/
+    right: 48vw;
+    top: 26vh;
 }
 
 .baseline.about-page{
-    bottom: 172px;
+    bottom: 23vh;
 }
 
 .line-art.about-page{
