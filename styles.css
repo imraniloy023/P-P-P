@@ -155,6 +155,16 @@ h2.horizontal{
     text-transform: uppercase;
 }
 
+.homepage-title h2 {
+    font-size: 41px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+hr.baseline.homepage {
+    bottom: 26px;
+}
+
 .baseline{
     position: relative;
     border: none;
