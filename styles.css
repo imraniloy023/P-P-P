@@ -156,13 +156,13 @@ h2.horizontal{
 }
 
 .homepage-title h2 {
-    font-size: 41px;
+    font-size: 41px !important;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
 hr.baseline.homepage {
-    bottom: 26px;
+    bottom: 33px;
 }
 
 .baseline{
@@ -195,6 +195,10 @@ hr.baseline.homepage {
 
 .line-art.contact-page{
     top: -75%;
+    border-color: #FDFFFC;
+}
+
+.line-art.contact{
     border-color: #FDFFFC;
 }
 
