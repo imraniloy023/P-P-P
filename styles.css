@@ -156,13 +156,14 @@ h2.horizontal{
 }
 
 .homepage-title h2 {
+    padding-top: 39.5%;
     font-size: 41px !important;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
 hr.baseline.homepage {
-    bottom: 33px;
+    bottom: 31px;
 }
 
 .baseline{
@@ -314,7 +315,9 @@ body.contact-page{
     position: absolute;
     top: 0;
     width: 100%;
-    padding: 25px 0 20px 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
 }
 
 .writings-list li{
@@ -361,6 +364,10 @@ strong{
         display: list-item;
     }
 
+    .line-art, .baseline{
+        display: none;
+    }
+
 
     nav a {
         font-size: 13px;
@@ -380,6 +387,11 @@ strong{
         z-index: 454;
     }
 
+    .homepage-title h2{
+        padding-top: 0 !important;
+        white-space: nowrap;
+    }
+
     .second-div {
         position: absolute;
         display: block;
@@ -397,7 +409,7 @@ strong{
         font-weight: bold;
         transform: rotate(270deg);
         padding: 0 0 0 0;
-        top: 115px;
+        top: 22vh;
         left: -100px;
         text-align: left;
         background-color: #FDFFFC;

@@ -388,20 +388,24 @@ p.pc-text-rnp {
 }
 
 .digital-space.image {
-    width: 29%;
+    width: 27%;
+}
+
+img.mobile {
+    display: none;
 }
 
 .digital-space.first {
-    width: 29%;
+    width: 27%;
     padding: 0 30px;
 }
 
 .digital-space.second-column {
-    width: 30%;
+    width: 28%;
 }
 
 .digital-space.last-column {
-    width: 21%;
+    width: 18%;
 }
 
 .digital-space.image {
@@ -672,6 +676,14 @@ p.first-item.last-column {
         padding-left: 10vw;
         font-weight: 400;
         font-family: 'Nunito Sans';
+    }
+
+    img.mobile {
+        display: block;
+    }
+
+    img.web {
+        display: none;
     }
 
     .column-title::after {
