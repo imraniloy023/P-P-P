@@ -388,7 +388,8 @@ strong{
     }
 
     .homepage-title h2{
-        padding-top: 0 !important;
+        font-size: 36px !important;
+        padding: 0 !important;
         white-space: nowrap;
     }
 
@@ -408,7 +409,7 @@ strong{
         font-size: 32px;
         font-weight: bold;
         transform: rotate(270deg);
-        padding: 0 0 0 0;
+        padding: 0 0 0 0 !important;
         top: 22vh;
         left: -100px;
         text-align: left;
