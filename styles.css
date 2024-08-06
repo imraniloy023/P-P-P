@@ -38,6 +38,7 @@ nav {
     align-items: flex-end;
 }
 
+
 /*
 nav {
     display: flex;
@@ -354,6 +355,14 @@ strong{
 
 /* For mobile */
 @media only screen and (max-width: 768px) {
+
+    header.homepage{
+        height: 23vh;
+    }
+
+    nav.homepage ul{
+        padding: 3vh 10vw !important;
+    }
 
     .hide-on-mobile{
         display: none;
