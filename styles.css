@@ -365,7 +365,7 @@ strong{
     }
 
     ul.sidebar.homepage {
-        padding: 33vh 10vw 0 14vw !important;
+        padding: 33vh 10vw 0 !important;
     }
 
     .hide-on-mobile{
