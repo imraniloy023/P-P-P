@@ -30,6 +30,7 @@ header{
     justify-content: flex-end;
     height: 100%;
     position: relative;
+    padding-right: 20px;
 }
 
 nav {
@@ -223,6 +224,10 @@ hr.baseline.homepage {
     margin-left: 15%;
 }
 
+.mobile-pic{
+    display: none;
+}
+
 .secondary-container img{
     width: 100%;
     max-height: 100%;
@@ -230,6 +235,7 @@ hr.baseline.homepage {
 }
 
 .photo-credit {
+    display: none;
     position: relative;
     right: -51%;
     bottom: -90%;
@@ -304,6 +310,7 @@ body.contact-page{
 
 .writings-list{
     position: relative;
+    background-image: url(img/img-walldesign-pc.webp);
 }
 
 .writings-list img{
@@ -368,6 +375,9 @@ strong{
         display: none;
     }
 
+    .header-container{
+        padding-right: 0;
+    }
 
     nav a {
         font-size: 13px;
@@ -404,16 +414,28 @@ strong{
         margin-left: 0;
     }
 
+    .desktop-pic{
+        display: none;
+    }
+
+    .mobile-pic{
+        display: block !important;
+    }
+
     h2.horizontal {
         position: relative;
         font-size: 32px;
         font-weight: bold;
         transform: rotate(270deg);
         padding: 0 0 0 0 !important;
-        top: 22vh;
+        top: 19vh;
         left: -100px;
         text-align: left;
         background-color: #FDFFFC;
+    }
+
+    .homepage-title h2{
+        display: none;
     }
 
     .contact-part h2, .about-part h2, .writings h2 {
@@ -433,7 +455,7 @@ strong{
         display: none;
     }
 
-    .about-me, .contact-details{
+    .about-me{
         padding: 15px 10vw;
         text-align: left;
     }
@@ -452,8 +474,10 @@ strong{
         display: none;
     }
 
-    .contact-details{
-        padding: 30px 11vw;
+    .contact-details {
+        padding: 15px 11vw;
+        font-size: 14px;
+        text-align: left;
     }
 
     .writings-list img {

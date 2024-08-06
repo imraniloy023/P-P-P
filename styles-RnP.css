@@ -355,6 +355,7 @@ nav li a:hover{
 
 
 .photo-credit-rnp {
+    display: none;
     position: relative;
     left: 240px;
     top: -9px;
@@ -625,8 +626,8 @@ p.first-item.last-column {
     .other-title {
         float: left;
         width: 100%;
-        font-size: 36px;
-        padding-top: 52px;
+        font-size: 30px;
+        padding-top: 40px;
         padding-left: 10vw;
         font-weight: 400;
         font-family: 'Nunito Sans';
@@ -671,8 +672,8 @@ p.first-item.last-column {
     .digital-space.title {
         display: inline-block;
         width: 100%;
-        font-size: 36px;
-        padding-top: 52px !important;
+        font-size: 30px;
+        padding-top: 40px !important;
         padding-left: 10vw;
         font-weight: 400;
         font-family: 'Nunito Sans';
