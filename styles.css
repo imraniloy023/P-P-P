@@ -309,18 +309,25 @@ body.contact-page{
     font-family: 'Nunito Sans';
 }
 
-.writings-list{
-    position: relative;
+.writings-list {
+    /* position: relative; */
     background-image: url(img/img-walldesign-pc.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
 }
 
+
+
 .writings-list img{
+    display: none;
     opacity: 1;
     filter: brightness(60%) grayscale(100%);
 }
 
 .writings-list ul {
-    position: absolute;
     top: 0;
     width: 100%;
     display: flex;
@@ -356,6 +363,7 @@ strong{
 /* For mobile */
 @media only screen and (max-width: 768px) {
 
+    
     header.homepage{
         height: 23vh;
     }
