@@ -168,7 +168,7 @@ nav li a:hover{
 .right ul {
     list-style-type: none;
     text-align: left;
-    padding: 5vh 0 5vh;
+    padding-bottom: 20px;
     border-radius: 10px;
 }
 
