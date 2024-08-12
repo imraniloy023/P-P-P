@@ -300,10 +300,6 @@ strong {
         display: block;
         font-style: italic;
     }
-
-    li a{
-        color: #FDFFFC !important;
-    }
     
     strong {
         font-family: 'Nunito Sans';
