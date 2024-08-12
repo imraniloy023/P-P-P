@@ -125,7 +125,7 @@ nav li a:hover{
 /* Header Part */
 
 
-.container {
+.body-container {
     height: 70vh;
     width: 90%;
     margin: auto;
@@ -257,7 +257,7 @@ strong {
         overflow: auto; /* Allow scrolling on mobile */
     }
 
-    .container {
+    .body-container {
         flex-direction: column;
         height: auto; /* Allow content to dictate height */
         width: 100%;
