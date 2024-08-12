@@ -257,7 +257,7 @@ strong {
     }
 
     .writings{
-        padding: 20px 10vw;
+        padding: 4.5vh 10vw;
     }
 
     .writings h1{
@@ -265,7 +265,6 @@ strong {
         font-weight: 400;
         text-align: left;
         padding-right: 0;
-        padding-top: 1.5vh;
     }
 
     .writings ul{
