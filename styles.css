@@ -529,6 +529,17 @@ strong{
     ul.sidebar.writing-page {
         width: 389px;
     }
+}
 
+/* For mid-size screen */
 
+@media (min-width: 1100px) and (max-width: 1340px) {
+    
+    .homepage-title h1 {
+        font-size: 30px !important;
+    }
+
+    hr.baseline.homepage {
+        bottom: 24px;
+    }
 }
