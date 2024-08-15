@@ -145,7 +145,7 @@ h2.vertical{
 }
 */
 
-h2.horizontal{
+h1.horizontal{
     font-size: 41px;
     font-weight: bolder;
     padding-top: 40%;
@@ -238,7 +238,7 @@ p.pc-text-light {
     color: #FDFFFC;
 }
 
-.contact-part h2, .about-part h2 {
+.contact-part h1, .about-part h1 {
     font-size: 36px;
     font-weight: 600;
     padding-top: 40%;
@@ -248,7 +248,7 @@ p.pc-text-light {
     padding-right: 15%;
 }
 
-.about-part h2{
+.about-part h1{
     color: #011627 !important;
 }
 
@@ -284,7 +284,7 @@ body.contact-page{
     padding-left: 100px;
 }
 
-.writings h2 {
+.writings h1 {
     font-size: 36px;
     font-weight: 600;
     padding-top: 40%;
@@ -384,7 +384,7 @@ strong{
         margin-left: 0;
     }
 
-    h2.horizontal {
+    h1.horizontal {
         position: relative;
         font-size: 32px;
         font-weight: bold;
@@ -396,7 +396,7 @@ strong{
         background-color: #FDFFFC;
     }
 
-    .contact-part h2, .about-part h2, .writings h2 {
+    .contact-part h1, .about-part h1, .writings h1 {
         font-size: 36px;
         font-weight: 400;
         padding-top: 85%;
