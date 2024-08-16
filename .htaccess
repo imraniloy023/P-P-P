@@ -5,14 +5,7 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Remove .html extension
+# Remove .html extension in URLs
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^([^/]+)$ $1.html [L]
-
-# Redirect URLs with .html to clean URLs
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html\s
-RewriteRule ^ %1 [R=301,L]
-
-<FilesMatch "^[^.]+$">
-    ForceType text/html
-</FilesMatch>
