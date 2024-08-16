@@ -1,11 +1,12 @@
-# Turn on the rewriting engine
+# Enable URL rewriting
 RewriteEngine On
 
-# Redirect all HTTP requests to HTTPS
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Remove .html extension in URLs
+# Remove .html extension from URLs
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^([^/]+)$ $1.html [L]
+
+# Redirect HTTP to HTTPS (if needed)
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
