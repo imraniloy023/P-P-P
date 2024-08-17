@@ -1,16 +1,24 @@
-# Enable URL rewriting
+# BEGIN HTTPS Redirection
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Redirect HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+# END HTTPS Redirection
+
+# BEGIN Remove .html Extension
+<IfModule mod_rewrite.c>
 RewriteEngine On
 
 # Remove .html extension from URLs
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^([^/]+)$ $1.html [L]
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
+# END Remove .html Extension
 
-# Redirect HTTP to HTTPS (if needed)
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Redirect URLs with .html to clean URLs (optional)
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html\s
-RewriteRule ^ %1 [R=301,L]
+# BEGIN Custom Rules (Optional)
+# Add any custom rules here
+# END Custom Rules
